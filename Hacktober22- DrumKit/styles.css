@@ -74,4 +74,11 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px black;
+  transition: all 1s ease;
+}
+
+.drum:hover {
+  transform: scale(1.1);
 }
